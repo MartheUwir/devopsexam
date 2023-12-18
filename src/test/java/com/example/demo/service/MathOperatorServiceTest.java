@@ -5,9 +5,9 @@ import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
-import rca.devopsexam.v1.dtos.DoMathRequestDto;
-import rca.devopsexam.v1.exceptions.InvalidOperationException;
-import rca.devopsexam.v1.serviceImpls.MathOperatorImpl;
+import com.example.demo.dtos.DoMathRequestDto;
+import com.example.demo.exceptions.InvalidOperationException;
+import com.example.demo.serviceImpls.MathOperatorImpl;
 import static org.assertj.core.api.Assertions.assertThat;
 
 import static org.mockito.ArgumentMatchers.any;
